@@ -14,8 +14,9 @@
     $primVl = $_GET['primeiroVl'] ?? 0;
     $segVl  = $_GET['segundoVl'] ?? 0;
     ?>
-    <main> <!-- Manda os dados para o próprio arquivo -->
+    <main> 
         <h1>Somador de valores</h1>
+             <!-- Manda os dados para o próprio arquivo -->
         <form action="<?= $_SERVER['PHP_SELF'] ?>" method="get">
 
             <label for="primeiroVl">Primeiro Valor</label>
